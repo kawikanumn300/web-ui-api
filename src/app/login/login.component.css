@@ -1,0 +1,9 @@
+.card_container{
+    align-items: center;
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 25%;
+}
+.form-control{
+    margin-bottom: 10px;
+}

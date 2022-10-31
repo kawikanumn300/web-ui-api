@@ -1,0 +1,13 @@
+.container{
+    margin-top: 10%;
+}
+.card{
+    padding-top: 10px;
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+    border: 1px black solid;
+}
+.padding_top{
+    padding-top: 5%;
+}
