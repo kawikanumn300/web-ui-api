@@ -9,6 +9,7 @@ import { ReportComponent } from './report/report.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { StartcontentComponent } from './startcontent/startcontent.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ReponsivePageComponent } from './reponsive-page/reponsive-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     RegisterComponent,
     ReportComponent,
     TopbarComponent,
-    StartcontentComponent
+    StartcontentComponent,
+    ReponsivePageComponent
   ],
   imports: [
     BrowserModule,

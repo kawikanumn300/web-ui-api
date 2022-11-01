@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ReponsivePageComponent } from './reponsive-page/reponsive-page.component';
 import { ReportComponent } from './report/report.component';
 import { StartcontentComponent } from './startcontent/startcontent.component';
 
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path:'report',
     component: ReportComponent
+  },
+  {
+    path:'reponsive-page',
+    component: ReponsivePageComponent
   }
   
 ];
